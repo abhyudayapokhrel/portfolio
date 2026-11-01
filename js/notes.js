@@ -1,0 +1,11 @@
+/* Replace with your own writing. `links` are slugs of related notes (drawn as graph edges). */
+window.NOTES=[
+ {slug:'hello-world',title:'hello world, again',desc:'why i rebuilt this site as a workspace instead of a blog. mostly because tabs are fun.',date:'2026-10-30',tags:['meta','web'],links:['graph-brain'],body:'rebuilt this thing so it feels like the tools i actually live in. tabs, a graph, a command palette. no framework, just files.'},
+ {slug:'graph-brain',title:'my brain, but as a graph',desc:'they call this the knowledge graph or smthg. i just wanted to see how my notes connect.',date:'2026-10-24',tags:['notes','web'],links:['linking-habits'],body:'every note links to a few others. the graph page shows the shape of that mess. drag stuff around, it is oddly calming.'},
+ {slug:'linking-habits',title:'how i link notes',desc:'link early, link messy, tidy up never. a short field guide to my habits.',date:'2026-10-12',tags:['notes'],links:[],body:'rule one: if you think of it twice, link it. rule two: there is no rule two.'},
+ {slug:'dark-ui',title:'dark ui, one accent',desc:'neutral grays plus a single periwinkle. fewer colors, fewer decisions.',date:'2026-09-30',tags:['design','web'],links:['hello-world'],body:'grays do the heavy lifting. the accent only shows up for links, focus rings and tags.'},
+ {slug:'late-night-playlist',title:'late night coding playlist',desc:'what i put on when the build is red and it is past midnight.',date:'2026-09-18',tags:['music'],links:[],body:'lo-fi, some ambient, the occasional guilty pleasure. see the media page.'},
+ {slug:'films-2026',title:'films i liked this year',desc:'short takes, no stars, no spoilers. just vibes.',date:'2026-09-02',tags:['film'],links:['late-night-playlist'],body:'a running list. i update it when i remember to.'},
+ {slug:'tiny-agents',title:'tiny agents are fun',desc:'poking at small chat agents that know one thing well. mine knows me, sort of.',date:'2026-08-21',tags:['ai','web'],links:['graph-brain'],body:'the chat page is a stub right now. wire it to any api you like.'},
+ {slug:'keyboard-first',title:'keyboard first',desc:'slash to search, esc to leave. why i hate reaching for the mouse.',date:'2026-08-05',tags:['design','meta'],links:['dark-ui'],body:'if it takes more than one key, it is too slow.'}
+];

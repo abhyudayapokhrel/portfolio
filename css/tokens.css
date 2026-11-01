@@ -1,0 +1,26 @@
+/* All design tokens live here. Edit this file to retheme the site. */
+:root{
+  --bg-chrome:#faf5c5; --bg-page:#fffbe0; --bg-card:#fffbe0; --bg-card-hover:#f6ea63;
+  --border:#dcd59a; --border-bright:#b8ad52;
+  --text-heading:#0b0a5c; --text-body:#0b0a5c; --text-muted:#4b4a86;
+  --accent:#3b34b8; --accent-soft:rgba(59,52,184,.1);
+  --node-note:#0b0a5c; --edge:rgba(11,10,92,.22);
+  --font:'Poppins',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:64px;
+  --r-card:8px; --r-panel:12px; --t:150ms ease;
+  --tab-h:36px; --rail-w:38px; --status-h:26px;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]),:root[data-theme="dark"]{
+  --bg-chrome:#0c1517; --bg-page:#121e21; --bg-card:#121e21; --bg-card-hover:#1b2b2e;
+  --border:#25373a; --border-bright:#476064;
+  --text-heading:#e7eeec; --text-body:#c8d3d0; --text-muted:#8fa09d;
+  --accent:#f2b84b; --accent-soft:rgba(242,184,75,.12);
+  --node-note:#e7eeec; --edge:rgba(231,238,236,.2);
+}}
+:root[data-theme="dark"]{
+  --bg-chrome:#0c1517; --bg-page:#121e21; --bg-card:#121e21; --bg-card-hover:#1b2b2e;
+  --border:#25373a; --border-bright:#476064;
+  --text-heading:#e7eeec; --text-body:#c8d3d0; --text-muted:#8fa09d;
+  --accent:#f2b84b; --accent-soft:rgba(242,184,75,.12);
+  --node-note:#e7eeec; --edge:rgba(231,238,236,.2);
+}
