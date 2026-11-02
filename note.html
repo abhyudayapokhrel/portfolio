@@ -1,0 +1,5 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/main.css"><title>note</title></head><body class="desk-theme" data-title="note"><main><article id="a"></article></main>
+<script src="js/notes.js"></script><script src="js/shell.js"></script><script>
+const s=location.hash.slice(1),n=NOTES.find(x=>x.slug===s)||NOTES[0];document.title=n.title;
+a.innerHTML='<p class="eyebrow">'+n.date+'</p><h1 style="font-size:44px">'+n.title+'</h1><p class="sub">'+n.desc+'</p><p>'+n.body+'</p><p>'+n.tags.map(t=>'<span class="pill">#'+t+'</span>').join(' ')+'</p>';
+document.querySelectorAll('.tab.active a')[0].textContent=n.title;</script></body></html>
